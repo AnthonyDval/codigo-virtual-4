@@ -40,6 +40,9 @@ footer p{
     height: 100px;
     width: 100px;
     background-color: orange;
+    border: 5px solid white;
+    margin-bottom: 21px;
+    padding: 5px;
 }
 
 .main__articulos{
