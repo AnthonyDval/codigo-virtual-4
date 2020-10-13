@@ -1,46 +1,52 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
 }
 
-.formulario{
-    border: 2px solid #6c14be;
-    border-radius: 20px;
-    width: 500px;
-    height: 600px;
-    margin: 20px auto;
-    padding: 20px;
+.formulario {
+  border: 2px solid #530780;
+  width: 500px;
+  height: 600px;
+  margin: 20px auto;
+  /*border curvo*/
+  border-radius: 20px;
+  padding: 20px;
 }
-
-.formulario__submit{
-    border: none;
-    padding: 10px;
-    color: white;
-    background-color: #6c14be;
-    border-radius: 3px;
-    margin-top: 10px;
-    border-bottom: 4px solid #250147;
+/*button*/
+.formulario__submit {
+  border: none;
+  padding: 10px;
+  color: white;
+  background-color: #530780;
+  border-radius: 3px;
+  margin-top: 10px;
+  /*colocando border sólo en bottom(abajo)*/
+  border-bottom: 4px solid #25023a;
 }
-
-.formulario__input{
-    width: 100%;
-    padding: 5px 12px;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid #e5b8ff;
-    background-image: url("./Vector.svg");
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
-    background-position: center left;
+.formulario__input {
+  width: 100%;
+  padding: 5px 25px;
+  border: none;
+  /*oultine es un segundo borde exterior
+  sin embargo, no es tomado en cuenta para calcular
+  el ancho ni el alto de un elemento, siempre esta
+  flotando*/
+  outline: none;
+  border-bottom: 1px solid #e5b8ff;
+  background-color: #fcf6ff;
+  background-image: url("./Vector.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: center left;
 }
-
-.formulario__mensaje{
-    width: 100%;
-    outline: none;
-    background-color: 5px;
-    border: 1px solid #;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
+.formulario__mensaje {
+  width: 100%;
+  outline: none;
+  background-color: #fcf6ff;
+  border: 1px solid #eac1ff;
+  margin-top: 5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
